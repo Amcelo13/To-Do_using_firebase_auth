@@ -4,9 +4,9 @@ import Next7Days from "./Next7Days";
 import Today from "./Today";
 import './MainSection.css'
 const list =[
-  { number: 1, title: "lets complete this", date: new Date("11/25/2022") },
-  { number: 2, title: "Should sleep at 9", date: new Date("02/02/2023") },
-  { number: 3, title: "Let us complete react", date: new Date("01/30/2023")}
+  { number: 1, title: "Go Gym", date: new Date("11/25/2022") },
+  { number: 2, title: "Should sleep at 10", date: new Date("02/02/2023") },
+  { number: 3, title: "Bring Monthly Grocery", date: new Date("01/30/2023")}
 ]
 export default function MainSection(props) {
   const [filteredList, setFilteredList] = useState(list);
